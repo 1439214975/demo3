@@ -1,0 +1,132 @@
+@charset "UTF-8";
+*{padding:0; margin:0 auto;}
+ul,li,p{display:block;}
+ul{list-style:none;}
+a{ text-decoration:none;}
+.clearfix:after{height:0; clear:both; visibility:hidden; display:block; content:'';}
+.TabbedPanels {
+	width: 986px;
+	margin:0px auto 45px auto; 
+	border:1px solid #eeeeee;
+	border-top:0;
+	position:relative;
+}
+.TabbedPanelsTabGroup {
+	margin-left:10px;
+	border-bottom:2px solid #bbbbbb;
+	position:relative;
+}
+.TabbedPanelsTab {
+	float: left;
+	width:220px;
+	font-size:14px;
+	color:#777777;
+	margin-right:15px;
+	border:1px solid #eeeeee;
+	height:33px;
+	line-height:33px;
+	text-align:center;
+	background:#f8f8f8;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+}
+.TabbedPanelsTabHover {
+	background:#e8e8e8;
+}
+
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+.TabbedPanelsContentGroup {
+	width:984px;
+	clear:both;
+	background-color: #ffffff;
+	padding-left:2px;
+	height:232px;
+}
+.TabbedPanelsContent li{
+	width:295px;
+	float:left;
+	border:1px solid #eeeeee;
+	height:38px;
+	line-height:38px;
+	background:url(../images/aaa_03.jpg) repeat-x left top;
+	margin:10px 0 10px 18px;
+	padding-left:9px;
+	}
+.TabbedPanelsContent li a{
+	font-size:14px;
+	color:#777777;
+	}
+.TabbedPanelsContent li a span{
+	width:39px; 
+	float:right;
+	background:#7c7c7c;
+	color:#ffffff;
+	font-size:12px;
+	line-height:39px;
+	text-align:center;
+	}
+.TabbedPanelsContent li:hover a{
+	color:red;
+	}
+.TabbedPanelsContent li:hover span{
+	background:red;
+	}
+.VTabbedPanels {
+	overflow: hidden;
+	zoom: 1;
+}
+.VTabbedPanels .TabbedPanelsTabGroup {
+	float: left;
+	width: 10em;
+	height: 20em;
+	background-color: #EEE;
+	position: relative;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+}
+.VTabbedPanels .TabbedPanelsTab {
+	float: none;
+	margin: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.VTabbedPanels .TabbedPanelsTabSelected {
+	background-color: #EEE;
+	border-bottom: solid 1px #999;
+}
+.VTabbedPanels .TabbedPanelsContentGroup {
+	clear: none;
+	float: left;
+	padding: 0px;
+	width: 30em;
+	height: 20em;
+}
+
+/* Styles for Printing */
+@media print {
+.TabbedPanels {
+	overflow: visible !important;
+}
+.TabbedPanelsContentGroup {
+	display: block !important;
+	overflow: visible !important;
+	height: auto !important;
+}
+.TabbedPanelsContent {
+	overflow: visible !important;
+	display: block !important;
+	clear: both !important;
+}
+.TabbedPanelsTab {
+	overflow: visible !important;
+	display: block !important;
+	clear: both !important;
+}
+}

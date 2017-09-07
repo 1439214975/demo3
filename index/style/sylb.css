@@ -1,0 +1,74 @@
+@charset "utf-8";
+@charset "utf-8";
+/*棣栭〉杞挱璋冪敤*/
+ul,ol,li{padding: 0px;margin: 0px}
+.sylb{width:100%; margin:0 auto;}
+.sylb1{HEIGHT:500px; OVERFLOW: hidden;}
+.slider{position: relative;}
+.slider div{position: relative;text-align: center;padding: 0px;list-style-type: none;margin: 0px;width:auto;background: #ffffff;height: 500px;overflow: hidden;}
+.slider span{z-index:99;position:absolute; text-align:right;width:1003px;;bottom:2px;color: #ffffff;font-size:12px;}
+.slider .txtbg{position: absolute;filter: alpha(opacity=60);width:100%;bottom: 0px;background: #000;height:17px;padding-top: 5px;left: 0px;opacity: 0.6;-moz-opacity: 0.6;-khtml-opacity: 0.6; z-index:100; text-align:center;}
+.slider span{z-index:110;}
+
+.slider .txtbg img{width:auto;height:500px; }
+.hdnum{width:1100px;height:70px;overflow:hidden;margin:25px auto; }
+.hdnum li{width:180px;float:left;overflow: hidden; }
+.hdnum li span{margin-top:-10px;}
+.hdnum li img{width:180px;height:70px;}
+.hdnum li.on{width:180px; cursor:pointer;}
+.hdnum li.on span{background-position: -0px -70px; width: 180px; height: 70px;}
+
+.pic1 {
+	background-image:url(../images/dh_r1_c1.png);
+	display: block;
+}
+.pic2 {
+	background-image: url(../images/dh_r1_c2.png);
+	display: block;
+}
+.pic3 {
+	background-image: url(../images/dh_r1_c3.png);
+	display: block;
+}
+.pic4 {
+	background-image: url(../images/dh_r1_c4.png);
+	display: block;
+}
+.pic5 {
+	background-image: url(../images/dh_r1_c5.png);
+	display: block;
+}
+.pic6 {
+	background-image: url(../images/dh_r1_c6.png);
+	display: block;
+}
+.pic_1 {background-position: -0px -0px; width: 180px; height: 70px; }
+.pic_2 {background-position: -0px -70px; width: 180px; height: 70px; }
+
+/*棣栭〉鏂伴椈璋冪敤*/
+.syct{height:330px; width:1100px; background-color:#eee; margin:30px auto;}
+.syct1{width:250px; height:25px; float:left; margin-top:25px; font-family:"寰蒋闆呴粦"; font-size:16px; font-weight:bold; color:#E60012;}
+.syct2{width:420px; height:25px; float:left; margin:25px 0px 10px 55px;font-family:"寰蒋闆呴粦"; font-size:16px; font-weight:bold; color:#E60012;}
+.syct3{width:298px; height:25px; float:left; margin:25px 0px 10px 42px;font-family:"寰蒋闆呴粦"; font-size:16px; font-weight:bold; color:#E60012;}
+.syjj{width:250px; height:225px; float:left; margin-left:20px; line-height:31px; }
+.mtop10{margin-top:10px;}
+.synews{width:420px; height:225px; float:left; margin-left:55px;}
+.syvideo{width:298px; height:225px; float:left; margin-left:38px;}
+.sytitl14{width:330px; white-space: nowrap;overflow:hidden;text-overflow:ellipsis;float:left;}
+.sytitr14{float:left; width:70px;text-decoration: none; line-height:40px;list-style-type:none;}
+.titbg{ border-bottom:1px dashed #777; height:40px; width:100%;text-decoration: none;}
+
+
+/*棣栭〉杞挱*/
+
+.dbocase{height:210px;overflow:hidden;width:300px;margin:0 auto;}
+.case_box{position:relative;width:300px;height:210px;overflow:hidden}
+.case_box p{z-index:2;position:absolute;text-indent:-9999px;width:20px;height:28px;top:40%;cursor:pointer}
+.case_box .prev{text-indent:-9999px;background:url(../images/slider_previous.png) no-repeat;left:0px}
+.case_box .next{background:url(../images/slider_next.png) no-repeat;top:40%;right:0px}
+.case_box ul{position:absolute;height:210px;overflow:hidden;top:0px;left:0px;list-style-type:none;}
+.case_box ul li{width:300px;float:left;height:210px;list-style-type:none;}
+/* CSS Document */
+
+/* CSS Document */
+

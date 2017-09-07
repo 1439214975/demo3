@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+#bg{ display: none;  position: absolute;  top: 0%;  left: 0%;  width: 100%;  height: 100%;  background-color: black;  z-index:1001;  -moz-opacity: 0.7;  opacity:.70;  filter: alpha(opacity=70);}
+#show{display: none;  position: absolute;  top: 25%;  right: 10%;  width: 40%; height:auto;  height:56%; min-height:30%; min-width:660px;  padding: 8px;  border: 1px solid #777;  background-color: white;  z-index:1002; }
+#btnshow{ font-size:16px; font-weight:bold; color:#E60012;}
+#btnzdh a:link, #btnzdh a:visited { text-decoration: none; font-size:16px; padding:10px 20px; background:url(../images/images_06.jpg) no-repeat 10px center;} 
+#btnzdh a:active, #btnzdh a:hover {color: #fff; padding:10px 20px; font-size:16px; text-decoration: none; background:url(../images/img_03.jpg) no-repeat 10px center , #E60012;}
+
+.nydiv{width:1003px; margin:0 auto; height:142px;}
+.nygs{width:700px; height:142px; line-height:142px; float:left; font-size:28px; font-weight:bold; color:#E50012;}
+.nydh{float:right; width:150px; height:142px; line-height:142px;}
+.nyzdh{width:1003px; margin:10px auto 0 auto; height:30px; line-height:30px;}
+.nyborder{width:1003px; margin:10px auto 30px auto; height:100%; min-height:1000px;border: #ddd 1px solid;}
+.nylf{width:692px; float:left; margin-left:25px;}
+.nylfdh{height:25px; margin:35px 0px; }
+.line30{line-height:30px;}
+.nyrg{width:227px; float:right; margin:0 25px; height:auto !important; height:600px; min-height:600px;}
+.nyrgdh{height:25px; margin:35px 0px;}
+

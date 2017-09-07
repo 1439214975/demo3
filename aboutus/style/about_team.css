@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.main .contact .right li{height:205px; border-bottom:1px solid #eeeeee; margin-left:20px; margin-right:20px;}
+.main .contact .right li:nth-child(1){background:url(../images/t_03.jpg) no-repeat 0px 0px;}
+.main .contact .right li:nth-child(2){background:url(../images/t_06.jpg) no-repeat 0px 0px;}
+.main .contact .right li:nth-child(3){background:url(../images/t_08.jpg) no-repeat 0px 0px;}
+.main .contact .right li:nth-child(4){background:url(../images/t_10.jpg) no-repeat 0px 0px;}
+.main .contact .right li:nth-child(5){background:url(../images/t_12.jpg) no-repeat 0px 0px;}
+.main .contact .right li:nth-child(6){background:url(../images/t_14.jpg) no-repeat 0px 0px;}
+.main .contact .right li:nth-child(7){background:url(../images/t_16.jpg) no-repeat 0px 0px;}
+.main .contact .right li:nth-child(8){background:url(../images/t_18.jpg) no-repeat 0px 0px;}
+.main .contact .right li:nth-child(9){background:url(../images/t_20.jpg) no-repeat 0px 0px;}
+.main .contact .right li:nth-child(10){background:url(../images/t_22.jpg) no-repeat 0px 0px;}
+.main .contact .right li:nth-child(11){background:url(../images/t_24.jpg) no-repeat 0px 0px;}
+.main .contact .right li:nth-child(12){background:url(../images/t_24.jpg) no-repeat 0px 0px;}
+.main .contact .right li:nth-child(13){background:url(../images/t_26.jpg) no-repeat 0px 0px; margin-bottom:20px;}
+.main .contact .right h3{padding-left:160px; height:38px; line-height:38px; color:#666666; font-size:16px;}
+.main .contact .right p{width:500px; padding-left:160px; line-height:34px; font-size:14px; color:#666666;}
+

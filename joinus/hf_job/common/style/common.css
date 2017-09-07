@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.box{width:1280px; margin:0 auto; position:relative;}
+.box .nav{height:64px; background:url(../img/pic_03.jpg) no-repeat 176px center,#134098; padding-right:175px; padding-left:580px;}
+.box .nav li{float:left; width:120px; height:64px; line-height:64px; text-align:center; }
+.box .nav li a{ color:#fff; font-size:16px; font-family:"黑体";}
+.box .nav li:hover{background:#df0615;}
+.box .main{background:url(../img/img16.jpg) no-repeat left top; width:1280px; height:570px; padding-top:230px; position:relative;}
+.box .main .pic{width:930px; height:424px; margin:0 auto; background:rgba(210,230,247,0.8);}
+.box .main .pic h2{padding-left:145px; padding-top:93px;}
+.box .main .photo{position:absolute; left:720px; top:155px;}
+.box .main .ph{position:absolute; left:1150px; top:260px;}
+.box .footer{background:#4f4f4f; color:#fff; font-size:12px; text-align:center; height:23px; line-height:23px;}
+

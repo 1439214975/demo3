@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.CollapsiblePanel {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.CollapsiblePanelTab {
+	border:1px solid #f2ebe1;
+	margin-bottom:1px;
+	background:url(../images/img_16.jpg) no-repeat 19px 19px,url(../images/img_13.jpg) repeat-x; 
+	height:44px;
+	line-height:44px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+.CollapsiblePanelTab a{	color:#666666;
+font-family:"黑体";
+font-size:16px;
+display:block;
+padding-left:39px;
+}
+.CollapsiblePanelTab a:hover{background: url(../images/pic_03.jpg) no-repeat 17px 20px,#c50110;
+color:#ffffd9;}
+.CollapsiblePanelContent {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.CollapsiblePanelOpen .CollapsiblePanelTab {
+	background-color: #EEE;
+}
+
+
+.CollapsiblePanelClosed .CollapsiblePanelTab {
+ /* background-color: #EFEFEF */
+}
+
+.CollapsiblePanelTabHover,  .CollapsiblePanelOpen .CollapsiblePanelTabHover {
+	background-color: #CCC;
+}
+
+.CollapsiblePanelFocused .CollapsiblePanelTab {
+	background-color: #3399FF;
+	
+}

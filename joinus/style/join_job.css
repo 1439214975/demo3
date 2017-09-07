@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+.main .contact .right tr{text-align:center; font-size:16px; color:#333333;}
+.main .contact .right tr a{font-size:14px; color:#777777;}
+.main .contact .right tr:hover a{color:red;}
+.main .contact .right tr td{border:1px solid #ccc;}

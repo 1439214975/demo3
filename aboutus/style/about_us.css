@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+/*main开始*/
+a{text-decoration:none;}
+.photo{width:100%; height:170px;}
+.photo .contact{width:1263px;}
+/*position开始*/
+.position{width:100%;}
+.position .contact{width:1004px; height:50px; line-height:50px; font-size:14px; margin:0 auto;}
+.position .contact a{color:#777777; padding-right:10px;}
+.position .contact a:hover{color:red;}
+.position .contact a span{color:#666666;}
+/*main开始*/
+.main{width:100%;}
+.main .contact{width:1004px; margin:0 auto; padding-bottom:50px;}
+.main .contact .left{float:left; width:260px; border:1px solid #eeeeee; height:620px; margin-right:28px; border-right:0;}
+.main .contact .left .p{ background:#e60012; height:80px; padding-top:30px; border-top-left-radius:15px; border-bottom:1px solid #eee5e5; margin-bottom:10px;}
+.main .contact .left h2{line-height:26px; border-left:2px solid #fcfdfc; width:102px; margin-left:20px; padding-left:10px; font-size:24px; color:#fff;}
+.main .contact .left h2 a{font-size:24px; color:#fff;}
+.main .contact .left span{font-size:14px; color:#fff;}
+.main .contact .left li{height:45px; line-height:45px; margin-top:1px; font-size:16px;  font-family:"黑体"; background: url(../images/l_07.jpg) no-repeat 15px center, url(../images/bg_03.jpg) repeat-x; padding-left:40px;}
+.main .contact .left li a{color:#666666;}
+.main .contact .left li:hover{background:url(../images/l_03.jpg) no-repeat 15px center,#cc0111;}
+.main .contact .left li:hover a{color:#ffffff;}
+.main .contact .right{float:left; border:1px solid #eeeeee; border-bottom:0; width:690px; height:835px; background:url(../images/main_03.jpg) no-repeat 15px 58px;}
+.main .contact .right h2{height:33px; line-height:33px; padding-top:26px; font-size:22px; color:#e50012; margin-bottom:40px;}
+.main .contact .right p{padding-right:30px; line-height:38px; color:#666666; text-indent:28px; font-size:14px;}
+

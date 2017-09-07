@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bottom{width:100%; background:#555555;}
+.bottom .footer_nav{width:637px; margin:0 auto;}
+.bottom .footer_nav li{width:83px; background:url(images/imgs_03.jpg) no-repeat right 10px; float:left;}
+.bottom .footer_nav li:nth-child(1){width:67px;}
+.bottom .footer_nav li:nth-child(7){background:none;}
+.bottom .footer_nav li a{display:block; font-size:12px; height:30px; line-height:30px; color:#ffffff; text-align:center;}
+.bottom .footer_nav li a:hover{color:red;}
+.wrap_footer{width:100%; background:url(../images/images_55.jpg) repeat-x left top;}
+.wrap_footer p{width:360px; margin:0 auto; padding:24px 0 44px 0; line-height:26px; font-size:12px; color:#535353; text-align:center;}

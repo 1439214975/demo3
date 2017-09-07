@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+.main .contact .right li{float:left; width:682px; padding-bottom:30px; height:36px; background:url(../images/hon_03.jpg) no-repeat 66px 15px;}
+.main .contact .right span{float:left; display:block; width:70px; text-align:center; height:36px; line-height:36px; color:#e10217; font-size:12px;}
+.main .contact .right p{ float:left; width:583px; height:36px; line-height:36px; color:#656565; font-size:14px; background:url(../images/honor_03.jpg) repeat-x; border:1px solid #efefef; padding-left:17px;}
+
